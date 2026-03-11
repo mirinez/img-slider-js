@@ -1,6 +1,6 @@
 ## Image Slider – Personal Lab
 **Author:** Míriam Domínguez Martínez  
-**Date:** 11.03.2026 
+**Date:** 11.03.2026   
 **Topic:** HTML, CSS & JavaScript – Image Slider with Loops
 
 ---
