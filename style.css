@@ -128,9 +128,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* fills the box without stretching */
-  opacity: 0;          /* hidden by default */
-  transition: opacity 1s ease; /* smooth fade transition */
+  object-fit: cover;            /* fills the box without stretching */
+  opacity: 0;                   /* hidden by default */
+  transition: opacity 1s ease;  /* smooth fade transition */
 }
 
 /* The active slide is fully visible */
@@ -174,14 +174,59 @@ body {
 
 /* Footer styles */
 footer {
-    background-color: var(--white); /* White background for better contrast with text */
-    color: var(--text); /* Darker text color for better contrast */
+    background-color: var(--white);  /* White background for better contrast with text */
+    color: var(--text);              /* Darker text color for better contrast */
     padding: 32px 48px;
     text-align: center;
     font-size: 14.4px;
 }
 
 footer p {
-    color: var(--text); /* Darker text color for better contrast */
-    margin: 0; /* Removes default margin from the footer paragraph for better spacing */
+    color: var(--text); 
+    margin: 0;                       /* Removes default margin from the footer paragraph for better spacing */
+}
+
+/* ============================================================
+   9. RESPONSIVE — Media Queries
+*/
+
+/* Tablet (max 768px) */
+@media (max-width: 768px) {
+
+  .slider {
+    width: 90vw;        /* 90% of the screen width */
+    height: 54vw;       /* keeps the same aspect ratio as 700x420 */
+  }
+
+  .title {
+    font-size: 1.4rem;  /* smaller title on tablet */
+  }
+
+}
+
+/* Mobile (max 480px) */
+@media (max-width: 480px) {
+
+  .slider {
+    width: 95vw;        /* almost full screen width on mobile */
+    height: 57vw;       /* keeps aspect ratio */
+  }
+
+  .title {
+    font-size: 1.2rem;  /* even smaller title on mobile */
+    text-align: center;
+  }
+
+  .subtitle {
+    text-align: center; /* center subtitles on small screens */
+  }
+
+  .page {
+    padding: 24px 12px; /* less padding on small screens */
+  }
+
+  footer {
+    padding: 20px 16px; /* less padding on mobile */
+    font-size: 12px;
+  }
 }
