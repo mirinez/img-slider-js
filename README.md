@@ -1,7 +1,6 @@
-## Image Slider – Homework
+## Image Slider – Personal Lab
 **Author:** Míriam Domínguez Martínez  
-**Date:** 11.03.2026  
-**Course:** Full Stack Web Development – DBE Academy  
+**Date:** 11.03.2026 
 **Topic:** HTML, CSS & JavaScript – Image Slider with Loops
 
 ---
@@ -31,23 +30,11 @@ This project is an interactive image slider built with HTML, CSS and JavaScript.
 
 ### Color Palette
 
-| Variable | Value | Usage |
-|---|---|---|
-| `--bg` | `#f0f4f8` | Page background |
-| `--white` | `#ffffff` | Footer, dots |
-| `--primary` | `#4f86c6` | Accent color |
-| `--text` | `#1a1a2e` | Main text |
-| `--muted` | `#8892a4` | Subtitle text |
+![colors](./img/colors.png)
 
 ---
 
-### Key Concepts Used
-
-- **`setInterval()`** — runs the `nextSlide()` function every 3000ms automatically
-- **`querySelectorAll()`** — selects all slide images and dot indicators at once
-- **`classList.add/remove()`** — toggles the `.active` class to show/hide slides
-- **Modulo `%`** — resets the index back to 0 after the last slide, creating the infinite loop
-- **CSS `opacity` + `transition`** — creates smooth fade effects between slides
+*Full Stack Web Development - Personal Lab 2026.*
 
 ---
 
