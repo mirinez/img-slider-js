@@ -35,7 +35,3 @@ This project is an interactive image slider built with HTML, CSS and JavaScript.
 ---
 
 *Full Stack Web Development - Personal Lab 2026.*
-
----
-
-*Full Stack Web Development Course – DBE Academy, 2026.*
